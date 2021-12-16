@@ -13,6 +13,10 @@
 # Used by dotenv library to load environment variables.
 # .env
 
+/storage/
+config/config.yaml
+*.log
+
 # Ignore Byebug command history file.
 .byebug_history
 
