@@ -1,0 +1,6 @@
+autoconfig:
+  pretty_load: true
+  default_files:
+    - ./config/config.default.yaml
+  files:
+    - ./config/config.yaml

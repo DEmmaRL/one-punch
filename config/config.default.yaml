@@ -1,0 +1,19 @@
+bots:
+  main:
+    name: charrobot
+    state_repository:
+      name: sequel
+      endpoint: 'sqlite://storage/wisdom-bot.db'
+    pool_size: 1
+    provider:
+      name: telegram # telegram | discord
+      token: TOKEN_REPLACE_ME # get your bot token
+      echo: true
+      debug: true
+database:
+  adapter: 'sqlite3'
+  database: wisdom-data.db
+features: []
+logger:
+  stdout: yes
+  severity: debug
