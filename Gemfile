@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org'
-
+gem 'rubyXL'
 gem 'kybus-bot'
 gem 'kybus-logger'
 gem 'kybus-configs'
@@ -16,7 +16,6 @@ gem 'sqlite3'
 gem 'amazing_print'
 gem 'activerecord'
 gem 'telegram-bot-ruby'
-
 group :development do
   gem 'mocha'
   gem 'rack'
